@@ -1,0 +1,4 @@
+Contains all the source code for running and evaluating models. 
+
+Note: During running you may see a ton of warnings (especially if running without a GPU), this is likely due to how Tensorflow handles errors on its C++ end, cannot really be
+fixed by me and so I have allowed it without supression for the sake of transparency. Also, if using these models ensure you train them every 30 days or so for better results
